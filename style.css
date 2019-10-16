@@ -1,9 +1,12 @@
-p {background-color: red; }
+p {background-color: green; }
 
 .first-box-container {
 	width: 200px;
 	height: 100px;
-	background-color: red;
+	background-color: green;
+	left:240px;
+	position:relative;
+	bottom:110px;	
 }
 
 .Second {
@@ -11,12 +14,18 @@ p {background-color: red; }
 	width: 300px;
 	height: 150px;
 	background-color: yellow;
+	left:530px;
+	position: relative;
+	bottom:220px;
+
 }
 
 .container {
 	width: 200px;
 	height: 100px;
 	background-color: red;
+	position:relative;
+	position: left;
 }
 
 .ruskea {
